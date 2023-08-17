@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">BMR Calculator</string>
+    <string name="cre_btn">CREATE</string>
+    <string name="name_text">NAME</string>
+    <string name="BMR_text">BMR</string>
+    <string name="create_text">Creating Record</string>
+    <string name="modify_text">Modifying Record</string>
+    <string name="Name_text">Name</string>
+    <string name="Gender_text">Gender</string>
+    <string name="Age_text">Age</string>
+    <string name="Height_text">Height(cm)</string>
+    <string name="Weight_text">Weight(kg)</string>
+    <string name="Cancel_btn">CANCEL</string>
+    <string name="Send_btn">SEND</string>
+    <string name="Save_btn">SAVE</string>
+    <string name="result_text">Result</string>
+    <string name="bmi_text">BMI</string>
+    <string name="bmr_text">BMR</string>
+
+</resources>

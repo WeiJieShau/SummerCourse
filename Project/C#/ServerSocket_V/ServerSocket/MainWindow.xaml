@@ -1,0 +1,18 @@
+﻿<Window x:Class="ServerSocket.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ServerSocket"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Button x:Name="bt_start" Content="Start Server" HorizontalAlignment="Left" Margin="563,117,0,0" VerticalAlignment="Top" Height="43" Width="109" FontSize="15" Click="bt_start_Click"/>
+        <Button x:Name="bt_stop" Content="Stop Listen" HorizontalAlignment="Left" Margin="563,198,0,0" VerticalAlignment="Top" Height="42" Width="109" FontSize="15" Click="bt_stop_Click"/>
+        <Label Content="Host Address :" HorizontalAlignment="Left" Margin="50,57,0,0" VerticalAlignment="Top" FontSize="20"/>
+        <TextBlock x:Name="tblock_mes" HorizontalAlignment="Left" Margin="50,131,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="263" Width="195"><Run Language="zh-tw" Text="*"/></TextBlock>
+        <TextBox x:Name="tb_ip" HorizontalAlignment="Left" Margin="248,61,0,0" TextWrapping="Wrap" Text="127.0.0.1" VerticalAlignment="Top" Width="120" FontSize="20"/>
+        <TextBox x:Name="tb_port" HorizontalAlignment="Left" Margin="400,61,0,0" TextWrapping="Wrap" Text="7700" VerticalAlignment="Top" Width="120" FontSize="20"/>
+
+    </Grid>
+</Window>

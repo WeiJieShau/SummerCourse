@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "xDQgoJjsaXVYMnh6h3PvBEq/xtELNDN/bBh8ZUKNITmHTCx8tXy68gS0jDzXXCoH/cNIyYTaoFNBB2Krw7nVCg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\User\\Desktop\\中大碩0\\暑期課程\\HomeWork\\C#\\ClientSocket_V\\ClientSocket\\ClientSocket.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\User\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
