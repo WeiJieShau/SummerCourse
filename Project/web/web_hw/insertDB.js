@@ -788,7 +788,7 @@ $(document).ready(function (e) {
                 }
                 loginuser = localStorage.getItem("loginuser");
                 if (loginuser) {
-                    $("#loginuser").text(loginuser + " , 您好 !");
+                    $("#loginuser").text(loginuser + " , 您好!");
                 }
 
 
@@ -800,7 +800,7 @@ $(document).ready(function (e) {
     function refresh() {
         var loginuser = localStorage.getItem("loginuser");
         var navbarContent = `
-    <div class="collapse navbar-collapse">
+    <div class="container-fluid">
         <ul class="navbar-nav">
             <li class="nav-item"><a id="mem_list_page_link" class="nav-link" href="UserList.html">會員列表</a></li>
             <li class="nav-item"><a id="mod_profile_page_link" class="nav-link" href="ModifyPage.html">修改個人資料</a></li>
@@ -812,9 +812,13 @@ $(document).ready(function (e) {
                 : ''
             }
         </ul>
+        <form class="d-flex">
+        <span id="loginuser" class="navbar-text"></span>
+        <button id="status_btn" type="button" class="btn">登出</button>
+        </form>
     </div>
-    <span id="loginuser" class="float-right"></span>
-    <button id="status_btn" type="button" class="btn">登出</button>
+    
+    
 `;
 
 
